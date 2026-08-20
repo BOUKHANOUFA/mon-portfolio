@@ -58,6 +58,9 @@
   transition: background-color 0.2s ease, color 0.2s ease;
   white-space: nowrap;
   border-radius: 8px;
+   background-color: transparent;
+  color: #111;
+  border: 1px solid #111;
 }
 
 .btn-primary {

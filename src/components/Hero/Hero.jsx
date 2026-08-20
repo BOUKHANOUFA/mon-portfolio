@@ -31,7 +31,7 @@ function Hero() {
       </div>
 
       <div className="hero-image-container">
-        {/* Remplace l'attribut src par le chemin vers ta vraie photo */}
+        
         <img src={heroImg} alt="Samira's Toolkit" className="hero-image" />
       </div>
     </section>
