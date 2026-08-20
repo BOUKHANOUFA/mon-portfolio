@@ -1,13 +1,66 @@
-nav {
+.navbar-header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1000;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  max-width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 80px;
 }
 
-nav a {
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #111111;
   text-decoration: none;
-  color: #000;
-  font-family: Arial, sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.logo-dot {
+  color: #0070f3;
+}
+
+/* Liens du menu */
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #444444;
+  text-decoration: none;
   font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #000000;
+}
+
+/* Bouton CV */
+.btn-cv {
+  padding: 10px 20px;
+  border: 1px solid #111111;
+  border-radius: 6px;
+  color: #111111;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-cv:hover {
+  background-color: #111111;
+  color: #ffffff;
 }

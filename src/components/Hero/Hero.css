@@ -1,0 +1,134 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 144px;
+  gap: 32px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+  text-align: left;
+}
+
+.hero-intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.hero-name {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+  line-height: 1.2;
+}
+
+.hero-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.hero-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Boutons */
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  justify-content: flex-start;
+}
+
+.btn {
+  padding: 12px 24px;
+ 
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #111;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #111;
+  border: 1px solid #111;
+}
+
+.btn-secondary:hover {
+  background-color: #f0f0f0;
+}
+
+/* Réseaux sociaux */
+.hero-socials {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-socials a {
+  color: #111;
+  font-size: 24px;
+  transition: opacity 0.2s ease;
+}
+
+.hero-socials a:hover {
+  opacity: 0.7;
+}
+
+/* Zone Image */
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+}
+
+/* Version Mobile (375px) */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-socials {
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+
+  .hero-image-container {
+    width: 100%;
+  }
+}
