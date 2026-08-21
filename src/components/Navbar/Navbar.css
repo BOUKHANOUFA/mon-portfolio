@@ -61,6 +61,50 @@
 }
 
 .btn-cv:hover {
-  background-color: #111111;
-  color: #ffffff;
+  background-color: #111111 !important;
+  color: #ffffff !important;
+}
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+  }
+  .menu-icon {
+    display: block; 
+  }
+
+  .nav-links {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  
+  .nav-links.active {
+    display: flex;
+    .btn-cv {
+    width: fit-content;
+    padding: 10px 24px;
+  }
+
+ 
+  .btn-cv:active,
+  .btn-cv:focus {
+    background-color: #111111;
+    color: #ffffff;
+  }
+}
 }
