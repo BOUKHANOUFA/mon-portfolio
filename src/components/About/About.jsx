@@ -6,12 +6,12 @@ function About() {
     <section className="about-section">
       <div className="about-container">
         
-        {/* Colonne Gauche : Image */}
+       
         <div className="about-image-container">
           <img src={aboutImg} alt="Illustration À propos" className="about-image" />
         </div>
 
-        {/* Colonne Droite : Texte + Bouton */}
+       
         <div className="about-content">
           <h2 className="about-title">À propos de moi</h2>
           <p className="about-description">
