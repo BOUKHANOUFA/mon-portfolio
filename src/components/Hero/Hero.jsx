@@ -1,5 +1,11 @@
 import './Hero.css';
 import heroImg from "../../assets/hero-img.jpg";
+import './Hero.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Hero() {
   return (
@@ -17,15 +23,15 @@ function Hero() {
           <a href="#contact" className="btn btn-secondary">Me contacter</a>
         </div>
 
-          <div className="hero-socials">
-          <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
-            <i className="fa-brands fa-github"></i>
+         <div className="hero-socials">
+          <a href="https://github.com" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-            <i className="fa-brands fa-linkedin"></i>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </a>
-          <a href="mailto:ton-email@example.com" aria-label="Email">
-            <i className="fa-regular fa-envelope"></i>
+          <a href="mailto:votre-email@example.com">
+            <FontAwesomeIcon icon={faEnvelope} size="xl" />
           </a>
         </div>
       </div>
