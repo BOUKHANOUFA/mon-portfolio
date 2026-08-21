@@ -132,6 +132,6 @@
   }
 
   .hero-image-container {
-    width: 100%;
+    display: none;
   }
 }

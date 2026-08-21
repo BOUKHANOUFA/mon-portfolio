@@ -66,3 +66,24 @@
   background-color: #333;
   color: #ffffff;
 }
+/* Version Mobile (375px) */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 16px;
+  }
+  .about-content{
+    text-align: center;
+  }
+
+  .btn-about {
+    flex-direction: column;
+  }
+
+  
+
+  .about-image-container {
+    width: 100%;
+  }
+}
