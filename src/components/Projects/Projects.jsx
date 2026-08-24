@@ -54,8 +54,8 @@ function Projects() {
                 <span>HTML / CSS</span>
               </div>
 
-           <a 
-  href="https://boukhanoufa.github.io/Portfolio-architecte-sophie-bluel-/" 
+ <a 
+  href="https://github.com/BOUKHANOUFA/Portfolio-architecte-sophie-bluel-" 
   target="_blank" 
   rel="noopener noreferrer" 
   className="btn-projet"
