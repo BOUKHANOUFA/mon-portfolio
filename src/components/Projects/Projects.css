@@ -1,0 +1,149 @@
+.projects-section {
+  width: 100%;
+  background-color: #f8f9fa; 
+  padding: 64px 0;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+
+/* Alignement des 2 cartes côte à côte */
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+/* Style de chaque carte projet */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 380px;
+  max-width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Image du projet */
+.project-image-container {
+  width: 100%;
+  height: 200px;
+  background-color: #e5e5e5;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Contenu du texte dans la carte */
+.project-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.project-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.project-description {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Badges de technologies */
+.project-techs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.project-techs span {
+  background-color: #f0f0f0;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 16px;
+}
+
+/* Groupe de boutons (pour GitHub + Démo) */
+.project-links {
+  display: flex;
+  gap: 12px;
+}
+
+/* Boutons */
+.btn-projet {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.btn-projet:hover {
+  background-color: #333333;
+}
+
+/* Bouton secondaire (Démo live) */
+.btn-demo {
+  background-color: transparent;
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+}
+
+.btn-demo:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
