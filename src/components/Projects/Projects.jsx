@@ -32,7 +32,7 @@ function Projects() {
                 rel="noopener noreferrer" 
                 className="btn-projet"
               >
-                Voir le projet
+                Voir sur GitHub
               </a>
             </div>
           </div>
@@ -60,7 +60,7 @@ function Projects() {
   rel="noopener noreferrer" 
   className="btn-projet"
 >
-  Voir le projet
+  Voir sur GitHub
 </a>
             </div>
           </div>
