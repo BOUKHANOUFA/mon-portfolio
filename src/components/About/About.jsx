@@ -3,7 +3,7 @@ import aboutImg from "../../assets/about-img.png";
 
 function About() {
   return (
-    <section className="about-section">
+    <section className="about-section" id='about'>
       <div className="about-container">
         
        
@@ -17,7 +17,7 @@ function About() {
           <p className="about-description">
             Passionnée par le développement web, j'aime créer des expériences numériques utiles et esthétiques. Toujours curieuse, j'apprends et je m'améliore chaque jour.
           </p>
-          <a href="#projets" className="btn-about">En savoir plus</a>
+          <a href="#skills" className="btn-about">En savoir plus</a>
         </div>
 
       </div>

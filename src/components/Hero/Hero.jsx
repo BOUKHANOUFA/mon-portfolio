@@ -19,18 +19,18 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <a href="#projets" className="btn btn-primary">Voir mes projets</a>
+          <a href="#projects" className="btn btn-primary">Voir mes projets</a>
           <a href="#contact" className="btn btn-secondary">Me contacter</a>
         </div>
 
          <div className="hero-socials">
-          <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/BOUKHANOUFA" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </a>
-          <a href="mailto:votre-email@example.com">
+          <a href="mailto:arimasboukhanoufa@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} size="xl" />
           </a>
         </div>

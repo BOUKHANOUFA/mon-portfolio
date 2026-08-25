@@ -20,10 +20,10 @@ function Navbar() {
 
         
          <div className={`nav-links ${isOpen ? 'active' : ''}`}>
-          <a href="#accueil" onClick={() => setIsOpen(false)}>Accueil</a>
-          <a href="#a-propos" onClick={() => setIsOpen(false)}>À propos</a>
-          <a href="#competences" onClick={() => setIsOpen(false)}>Compétences</a>
-          <a href="#projets" onClick={() => setIsOpen(false)}>Projets</a>
+          <a href="#hero" onClick={() => setIsOpen(false)}>Accueil</a>
+          <a href="#about" onClick={() => setIsOpen(false)}>À propos</a>
+          <a href="#skills" onClick={() => setIsOpen(false)}>Compétences</a>
+          <a href="#projects" onClick={() => setIsOpen(false)}>Projets</a>
           <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
 
         <a href="#cv" className="btn-cv">Télécharger CV</a>

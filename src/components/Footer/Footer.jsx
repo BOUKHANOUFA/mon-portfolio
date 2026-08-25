@@ -14,7 +14,7 @@ function Footer() {
         <div className="footer-contact-info">
           <div className="contact-item">
             <span className="icon">✉️</span>
-            <a href="mailto:ton.email@exemple.com">arimasboukhanoufa@gmail.com</a>
+            <a href="mailto:arimasboukhanoufa@gmail.com">arimasboukhanoufa@gmail.com</a>
           </div>
           <div className="contact-item">
             <span className="icon">📞</span>
@@ -22,7 +22,7 @@ function Footer() {
           </div>
           <div className="contact-item">
             <span className="icon">📍</span>
-            <span>Meulan, France</span>
+            <span>Paris, France</span>
           </div>
         </div>
 
