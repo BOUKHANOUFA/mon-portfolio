@@ -8,7 +8,9 @@ function ProjectCard({ title, description, image, techs, githubLink }) {
       </div>
       <div className="project-content">
         <h3 className="project-card-title">{title}</h3>
-        <p className="project-description">{description}</p>
+        <p className="project-description" style={{ whiteSpace: 'pre-line' }}>
+         {description}
+        </p>
         
         <div className="project-techs">
           {techs.map((tech, index) => (
