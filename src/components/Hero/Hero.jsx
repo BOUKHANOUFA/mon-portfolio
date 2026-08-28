@@ -27,7 +27,7 @@ function Hero() {
           <a href="https://github.com/BOUKHANOUFA" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/samira-boukhanoufa-a8752633a/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </a>
           <a href="mailto:arimasboukhanoufa@gmail.com">
