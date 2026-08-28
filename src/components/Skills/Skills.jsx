@@ -1,20 +1,27 @@
-import './Skills.css';
+import "./Skills.css";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faSquareJs, faReact, faGitAlt, faFigma } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faSquareJs,
+  faReact,
+  faGitAlt,
+  faFigma,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Skills() {
   const skillsList = [
-    { name: 'HTML', icon: faHtml5 },
-    { name: 'CSS', icon: faCss3Alt },
-    { name: 'JavaScript', icon: faSquareJs },
-    { name: 'React', icon: faReact },
-    { name: 'Git', icon: faGitAlt },
-    { name: 'Figma', icon: faFigma },
+    { name: "HTML", icon: faHtml5 },
+    { name: "CSS", icon: faCss3Alt },
+    { name: "JavaScript", icon: faSquareJs },
+    { name: "React", icon: faReact },
+    { name: "Git", icon: faGitAlt },
+    { name: "Figma", icon: faFigma },
   ];
 
   return (
-    <section className="skills-section"id='skills'>
+    <section className="skills-section" id="skills">
       <div className="skills-container">
         <h2 className="skills-title">Mes compétences</h2>
         <div className="skills-grid">

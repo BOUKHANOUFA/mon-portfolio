@@ -1,5 +1,4 @@
-
-import './Footer.css';
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -14,7 +13,9 @@ function Footer() {
         <div className="footer-contact-info">
           <div className="contact-item">
             <span className="icon">✉️</span>
-            <a href="mailto:arimasboukhanoufa@gmail.com">arimasboukhanoufa@gmail.com</a>
+            <a href="mailto:arimasboukhanoufa@gmail.com">
+              arimasboukhanoufa@gmail.com
+            </a>
           </div>
           <div className="contact-item">
             <span className="icon">📞</span>
@@ -26,7 +27,6 @@ function Footer() {
           </div>
         </div>
 
-       
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} BOUKHANOUFA. Tous droits réservés.</p>
         </div>

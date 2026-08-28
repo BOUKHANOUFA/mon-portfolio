@@ -1,7 +1,7 @@
-import './Projects.css';
-import ProjectCard from './ProjectCard';
-import argentBankImg from '../../assets/argent-bank.png';
-import sophieBluelImg from '../../assets/sophie-bluel.png';
+import "./Projects.css";
+import ProjectCard from "./ProjectCard";
+import argentBankImg from "../../assets/argent-bank.png";
+import sophieBluelImg from "../../assets/sophie-bluel.png";
 
 function Projects() {
   const projectsData = [
@@ -16,7 +16,7 @@ function Projects() {
 • Perspectives d'amélioration : Implémentation des transactions futures et gestion complète des cartes bancaires.`,
       image: argentBankImg,
       techs: ["React", "Redux Toolkit", "API REST", "JWT"],
-      githubLink: "https://github.com/BOUKHANOUFA/ArgentBank-Frontend"
+      githubLink: "https://github.com/BOUKHANOUFA/ArgentBank-Frontend",
     },
     {
       id: 2,
@@ -29,18 +29,19 @@ function Projects() {
 • Perspectives d'amélioration : Migration de la base de code sous React pour une meilleure maintenabilité.`,
       image: sophieBluelImg,
       techs: ["JavaScript", "API REST", "HTML / CSS"],
-      githubLink: "https://github.com/BOUKHANOUFA/Portfolio-architecte-sophie-bluel-"
-    }
+      githubLink:
+        "https://github.com/BOUKHANOUFA/Portfolio-architecte-sophie-bluel-",
+    },
   ];
 
   return (
-    <section className="projects-section" id='projects'>
+    <section className="projects-section" id="projects">
       <div className="projects-container">
         <h2 className="projects-title">Mes projets</h2>
 
         <div className="projects-grid">
           {projectsData.map((project) => (
-            <ProjectCard 
+            <ProjectCard
               key={project.id}
               title={project.title}
               description={project.description}

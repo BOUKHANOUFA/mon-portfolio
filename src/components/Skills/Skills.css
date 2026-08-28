@@ -38,20 +38,20 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
 }
-
 
 .skill-card:hover {
-  transform: translateY(-4px); 
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08); 
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
-
 
 .skill-icon {
   font-size: 40px;
-  color: #333333; 
-  transition: color 0.3s ease; 
+  color: #333333;
+  transition: color 0.3s ease;
 }
 
 .skill-name {
@@ -61,18 +61,27 @@
   margin: 0;
 }
 
-
-.skill-card:hover .fa-html5 { color: #E34F26; }
-.skill-card:hover .fa-css3-alt { color: #1572B6; }
+.skill-card:hover .fa-html5 {
+  color: #e34f26;
+}
+.skill-card:hover .fa-css3-alt {
+  color: #1572b6;
+}
 
 .skill-card:hover .fa-square-js,
 .skill-card:hover .fa-js-square,
 .skill-card:hover [data-icon="square-js"],
 .skill-card:hover [data-icon="js-square"],
-.skill-card:hover svg[data-icon="square-js"] { 
-  color: #F7DF1E !important; 
+.skill-card:hover svg[data-icon="square-js"] {
+  color: #f7df1e !important;
 }
 
-.skill-card:hover .fa-react { color: #61DAFB; }
-.skill-card:hover .fa-git-alt { color: #F05032; }
-.skill-card:hover .fa-figma { color: #F24E1E; }
+.skill-card:hover .fa-react {
+  color: #61dafb;
+}
+.skill-card:hover .fa-git-alt {
+  color: #f05032;
+}
+.skill-card:hover .fa-figma {
+  color: #f24e1e;
+}
