@@ -19,7 +19,7 @@ function Footer() {
           </div>
           <div className="contact-item">
             <span className="icon">📞</span>
-            <a href="tel:+33600000000">+33 6 56 78 98 44</a>
+            <a href="tel:+33656789844">+33 6 56 78 98 44</a>
           </div>
           <div className="contact-item">
             <span className="icon">📍</span>

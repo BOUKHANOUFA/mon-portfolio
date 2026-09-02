@@ -23,7 +23,7 @@ function Projects() {
       title: "Sophie Bluel",
       description: `• Contexte : Création du site vitrine d'une architecte d'intérieur.
 • Objectifs : Permettre la présentation des travaux et la gestion dynamique des galeries.
-• Stack technique : JavaScript Vanilla, HTML5, CSS3, API REST.
+• Stack technique : JavaScript , HTML5, CSS3, API REST.
 • Compétences développées : Manipulation avancée du DOM, gestion des appels asynchrones (Fetch) et modale d'upload sécurisée.
 • Résultats et impact : Espace administrateur opérationnel permettant l'ajout/suppression de projets en direct.
 • Perspectives d'amélioration : Migration de la base de code sous React pour une meilleure maintenabilité.`,
