@@ -4,7 +4,15 @@ function ProjectCard({ title, description, image, techs, githubLink }) {
   return (
     <div className="project-card">
       <div className="project-image-container">
-        <img src={image} alt={`Projet ${title}`} className="project-image" />
+        <img
+          src={image}
+          alt={`Projet ${title}`}
+          className="project-image"
+          loading="lazy"
+          decoding="async"
+          width="600"
+          height="400"
+        />
       </div>
       <div className="project-content">
         <h3 className="project-card-title">{title}</h3>

@@ -1,15 +1,13 @@
 import "./Hero.css";
-import heroImg from "../../assets/hero-img.jpg";
-import "./Hero.css";
+import heroImg from "../../assets/hero-img.avif";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="hero-content">
         <p className="hero-intro">Hello ! je suis</p>
         <h1 className="hero-name">BOUKHANOUFA SAMIRA</h1>
@@ -33,6 +31,7 @@ function Hero() {
             href="https://github.com/BOUKHANOUFA"
             target="_blank"
             rel="noreferrer"
+            aria-label="Voir mon profil GitHub"
           >
             <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
@@ -40,17 +39,29 @@ function Hero() {
             href="https://www.linkedin.com/in/samira-boukhanoufa-a8752633a/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Voir mon profil LinkedIn"
           >
             <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </a>
-          <a href="mailto:arimasboukhanoufa@gmail.com">
+          <a
+            href="mailto:arimasboukhanoufa@gmail.com"
+            aria-label="M'envoyer un e-mail"
+          >
             <FontAwesomeIcon icon={faEnvelope} size="xl" />
           </a>
         </div>
       </div>
 
       <div className="hero-image-container">
-        <img src={heroImg} alt="Samira's Toolkit" className="hero-image" />
+        <img
+          src={heroImg}
+          alt="Samira's Toolkit"
+          className="hero-image"
+          fetchPriority="high"
+          decoding="sync"
+          width="500"
+          height="500"
+        />
       </div>
     </section>
   );

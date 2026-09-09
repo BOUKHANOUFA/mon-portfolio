@@ -1,7 +1,7 @@
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
-import argentBankImg from "../../assets/argent-bank.png";
-import sophieBluelImg from "../../assets/sophie-bluel.png";
+import argentBankImg from "../../assets/argent-bank.avif";
+import sophieBluelImg from "../../assets/sophie-bluel.avif";
 
 function Projects() {
   const projectsData = [
