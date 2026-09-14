@@ -40,7 +40,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/cv-Samira-Boukhanoufa.pdf"
+            href="/cv-samira-boukhanoufa.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-cv"
