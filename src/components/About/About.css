@@ -64,6 +64,24 @@
   background-color: #333;
   color: #ffffff;
 }
+
+.certification {
+  margin-top: 24px;
+  padding: 16px;
+  border-left: 3px solid #7651f5;
+  background-color: #f7f5ff;
+  border-radius: 4px;
+}
+
+.certification h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.certification p {
+  line-height: 1.7;
+  margin: 0;
+}
 /* Version Mobile (375px) */
 @media (max-width: 768px) {
   .about-container {
