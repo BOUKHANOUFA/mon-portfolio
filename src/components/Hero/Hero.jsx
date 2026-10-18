@@ -11,7 +11,7 @@ function Hero() {
       <div className="hero-content">
         <p className="hero-intro">Hello ! je suis</p>
         <h1 className="hero-name">BOUKHANOUFA SAMIRA</h1>
-        <h2 className="hero-title">Intégratrice Web</h2>
+        <h2 className="hero-title">Développeuse web junior</h2>
         <p className="hero-description">
           Je crée des sites et applications web modernes, rapides et
           responsives.
